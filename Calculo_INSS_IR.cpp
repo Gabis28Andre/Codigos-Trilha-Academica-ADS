@@ -88,5 +88,15 @@ printf("\n");
 
 printf("\n");
 
+for (salario; salario < 1300; salario + 1000)
+{
+ printf("Voçe é Pobre :) : %.2f", sal_liquido);
+ break;
+}
+
+printf("\n");
+
+printf("\n"); 
+
 return 0;
 }
