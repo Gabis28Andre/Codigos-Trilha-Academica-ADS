@@ -78,9 +78,9 @@ ir = salario * 0.275;
 
 sal_liquido = (salario - inss) - ir;
 
-printf("\n Desconto INSS %.2f \n", inss);
+printf("\n Desconto INSS: %.2f \n", inss);
 
-printf("\n Desconto Imposto de Renda %.2f \n", ir);
+printf("\n Desconto Imposto de Renda: %.2f \n", ir);
 
 printf("\n Salario Liquido : %.2f \n ", sal_liquido);
 
