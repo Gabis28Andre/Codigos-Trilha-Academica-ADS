@@ -31,14 +31,15 @@ case 2:
 case 3:
     printf("\t\t Voce escolheu Leite Condensado");
     printf("\t Valor Nutricional do Leite Condensado: 100g = 328kcal\n");
+
     break;
 
  default:
     break;
  }
  
+ printf("\n");
+ printf("\n");
 
-
-
-
+return 0;
 }
