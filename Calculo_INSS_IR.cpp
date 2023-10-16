@@ -76,7 +76,13 @@ ir = salario * 0.275;
 
 }
 
+sal_liquido = (salario - inss) - ir;
 
+printf("\n Desconto INSS %f \n", inss);
+
+printf("\n Desconto Imposto de Renda %f \n", ir);
+
+printf("\n Salario Liquido : %.2f \n ", sal_liquido);
 
 
 return 0;
