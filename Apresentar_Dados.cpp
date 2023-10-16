@@ -21,6 +21,8 @@ int main()
     printf("\n Endereço: %s", endereco);
     printf("\n Idade: %d", idade);
     
+    printf("\n ");
+    printf("\n ");
     
     return 0;
 }
