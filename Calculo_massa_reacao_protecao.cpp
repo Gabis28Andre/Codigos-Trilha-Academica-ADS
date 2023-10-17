@@ -4,7 +4,8 @@
 
 int calcularMassa(float a, float b){
 
-const float mA=321.43, mB= 150.72; //valores passados na questão
+const float mA=321.43; 
+const float mB= 150.72; //valores passados na questão
 
 //calcular com pesos passados na questão
 printf("\n 1,2 : 1,0 \t = %f", (1,2*mA+1*mB));
