@@ -1,14 +1,13 @@
 
 
-/*Situação Problema
+/*  Situação Problema
 Foi solicitado a voce para automatizar um calculo de uma reação chamada de proteção.
 Nessa reação um composto A de massa = 321,43 g/mol será comado a um composto B de 
 massa = 150,72 g/mol. Seu programa além de calcular o composto com base nas informações
 do usuário, deverá também exibir os valores de referencia das combinações (pesos): 
 (1,2 : 1,0), (1,4 : 1,0), (1,0 : 1,6).
 
-//interpretando : Quer uma função que calcule (some) a massa de A e de B multiplicado por esses pesos.
-
+//interpretando : Quer uma função que calcule (some) a massa de A e de B multiplicado por esses pesos
 
 */
 
