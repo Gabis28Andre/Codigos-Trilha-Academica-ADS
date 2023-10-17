@@ -1,34 +1,36 @@
 #include <iostream>
 
-int main(){
+#include <cstdio>
 
-int linha, coluna;
+int main() {
+    int linhas, colunas;
 
-int matriz [2] [2];
+    printf("Digite o número de linhas da matriz: ");
+    scanf("%d", &linhas);
 
-for(linha=0; coluna <=2; linha++) {
+    printf("Digite o número de colunas da matriz: ");
+    scanf("%d", &colunas);
 
- for(coluna=0; linha <=2; coluna++) {
+    int matriz[linhas][colunas];
 
-  printf("\n Digite os valores da matriz para a linha %d, e coluna %d", linha +1, coluna +1);
-  scanf("%d", &matriz [linha][coluna]);
-  
- }
+    printf("Digite os elementos da matriz:\n");
 
-}
-
-for(linha=0; linha <=2; linha++){
-
-    for(coluna=0; coluna<=2; linha++){
-     
-      printf("%d \t\n", matriz[linha][coluna]);
-      printf("\n Veja a sua Matriz: \n");
-      printf("\n\n");
-      
+    for (int i = 0; i < linhas; i++) {
+        for (int j = 0; j < colunas; j++) {
+            printf("\n Digite o elemento da linha %d e coluna %d: ", i + 1, j + 1);
+            scanf("%d", &matriz[i][j]);
+        }
     }
 
-}
+    // Exibir a matriz
+    printf("\n A matriz digitada é:\n");
 
-system("pause");
-return 0;
+    for (int i = 0; i < linhas; i++) {
+        for (int j = 0; j < colunas; j++) {
+            printf("\t %d ", matriz[i][j]);
+        }
+        printf("\n\n");
+    }
+
+    return 0;
 }
