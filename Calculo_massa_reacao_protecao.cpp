@@ -22,9 +22,9 @@ const float mA=321.43;
 const float mB= 150.72; //valores passados na questão
 
 //calcular com pesos passados na questão
-printf("\n 1,2 : 1,0 \t = %.3f", ((1,2*mA)+(1*mB)));
-printf("\n 1,4 : 1,0 \t = %.3f", ((1,4*mA)+(1*mB)));
-printf("\n 1,0 : 1,6 \t = %.3f \n", ((1*mA)+(1,6*mB)));
+printf("\n 1,2 : 1,0 \t = %.3f", (1,2*mA+1*mB));
+printf("\n 1,4 : 1,0 \t = %.3f", (1,4*mA+1*mB));
+printf("\n 1,0 : 1,6 \t = %.3f \n", (1*mA+1,6*mB));
 
 
 return (a* mA) + (b* mB);
