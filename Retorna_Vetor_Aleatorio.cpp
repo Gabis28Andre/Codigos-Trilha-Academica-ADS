@@ -16,3 +16,9 @@ int s;
 
 return a;
 }
+
+int main(){
+
+   Numero_aleatorio();
+
+}
