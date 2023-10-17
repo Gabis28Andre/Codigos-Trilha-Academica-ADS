@@ -4,13 +4,13 @@
 int* Numero_aleatorio(){
 
 static int a[10];
-int sequencia;
+int s;
 
- for (sequencia=0; sequencia < 10; sequencia++) {
+ for (s=0; s < 10; s++) {
 
-    a[sequencia] = rand();
+    a[s] = rand();
 
-    printf("a[%d] = %d \n", sequencia, a[sequencia]);
+    printf("a[%d] = %d \n", s, a[s]);
 
  }
 
