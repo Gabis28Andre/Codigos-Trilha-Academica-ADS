@@ -41,7 +41,7 @@ scanf("%f", &a);
 printf("\n Digite a massa do elemento B: ");
 scanf("%f", &b);
 
-resultado = calcularMassa(a, b); //chamando a função
+resultado = calcularMassa(a, b); //chamando a função - massas somadas totais
 
 printf("\n\t Resultado: %.2f", resultado);
 printf("\n\n");
