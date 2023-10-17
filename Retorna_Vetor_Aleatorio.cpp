@@ -6,11 +6,15 @@ int* Numero_aleatorio(){
 static int a[10];
 int s;
 
- for (s=0; s < 10; s++) {
+printf(" \n Numeros Atealórios enumerados até 10: \n");
+
+ for (s=0; s <= 10; s++) {
 
     a[s] = rand();
 
-    printf("a[%d] = %d \n", s, a[s]);
+    
+
+    printf("\t a[%d] = %d \n", s, a[s]);
 
  }
 
