@@ -19,7 +19,7 @@ int main(){
  switch (s)
  {
  case 1:
-    printf("\t\t Voce escolheu Coco");
+    printf("\t\t Voce escolheu Coco\n");
     printf("\t Valor Nutricional do Coco: 100g = 423kcal\n");
     break;
  
