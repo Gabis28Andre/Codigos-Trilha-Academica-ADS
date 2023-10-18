@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
     scanf("%f", &numero);
     raiz = calcularraiz(numero, numero/2);
 
-    printf("\n Raiz quadrada função: = %f\n", raiz);
+    printf("\n Raiz quadrada função: =\t %f\n", raiz);
 
     return 0;
 }
