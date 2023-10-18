@@ -1,10 +1,10 @@
 #include <iostream>
-
+//Fatorial usando função recursiva
 using namespace std;
 
 int fatorial(int valor){
 
-if (valor != 1){
+if (valor != 1){ 
 
 return valor * fatorial(valor - 1);
 
