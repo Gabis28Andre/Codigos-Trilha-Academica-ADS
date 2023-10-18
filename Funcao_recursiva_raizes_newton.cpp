@@ -6,7 +6,6 @@
               2Xn - 1
 
 
-
 */
 
 #include <stdio.h>
