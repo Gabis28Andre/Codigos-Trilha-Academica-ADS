@@ -1,3 +1,14 @@
+/*   
+
+               2
+        Xn = Xn - 1 + n
+            ------------     formula raiz de newton
+              2Xn - 1
+
+
+
+*/
+
 #include <stdio.h>
 #include<math.h>
 
@@ -19,7 +30,7 @@ int main(int argc, char const *argv[])
     printf("\n Digite um numero para calcular a raiz: \n");
     scanf("%f", &numero);
     raiz = calcularraiz(numero, numero/2);
-    
+
     printf("\n Raiz quadrada função: = %f\n", raiz);
 
     return 0;
