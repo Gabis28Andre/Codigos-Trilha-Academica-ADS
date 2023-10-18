@@ -4,7 +4,7 @@ using namespace std;
 
 int fatorial(int valor){
 
-if (fatorial != 1){
+if (valor != 1){
 
 return valor * fatorial(valor - 1);
 
@@ -24,7 +24,10 @@ scanf("%d", &n);
 
 fatorial(n);
 
-printf("Resultado %d, e mais %d, valor de n %d", valor, fatorial(n), n);
+printf("Resultado Fatorial: %d, para o numero: %d", fatorial(n), n);
+
+printf("\n\n");
+
 return 0;
 }
 
