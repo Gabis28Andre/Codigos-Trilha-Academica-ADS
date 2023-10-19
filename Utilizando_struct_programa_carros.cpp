@@ -49,6 +49,10 @@ struct Carro
 
  }
 
+ void mostravel(){
+ cout << "Velocidade Atual: " << vel << "\n";
+ }
+
 };
 
 void escolha(){
@@ -57,10 +61,11 @@ void escolha(){
    printf("\n Digite 1......Civic: \n");
    printf("\n Digite 2......Golf: \n");
    printf("\n Digite 3......Corolla: \t");
-   
 
-  
+}
 
+void escolhavel(){
+    printf("\n \t Escolha a velocidade: ");
 }
 
 int main(int argc, char const *argv[])
@@ -90,6 +95,28 @@ int main(int argc, char const *argv[])
     if(a == 3){
    car3.mostra();
    }
+
+
+  escolhavel();
+  
+  int v;
+  scanf("\t %d", &v);
+
+  if (v != 0 && a==1){
+   car1.movvel(v);
+   car1.mostravel();
+  }
+   if (v != 0 && a==2){
+   car2.movvel(v);
+   car2.mostravel();
+  }
+  if (v != 0 && a==3){
+   car3.movvel(v);
+   car3.mostravel();
+  }
+
+
+
 
 printf("\n\n");
     return 0;
