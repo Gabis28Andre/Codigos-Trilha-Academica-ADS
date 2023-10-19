@@ -1,4 +1,12 @@
 //programa para inserir valor duplicado com função recursiva
+/*
+Situação Problema: 
+
+    Foi passado para construir um programa utilizando função recursiva e passagem 
+    de parametros para ler uma variavel vetorizar ela em tres vetores, e cada vetor ter como resultado
+    uma função que apresente o valor dos vetores dobrados.
+
+*/
 
 #include <iostream>
 
