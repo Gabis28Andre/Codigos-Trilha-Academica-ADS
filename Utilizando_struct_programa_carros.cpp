@@ -49,9 +49,6 @@ struct Carro
 
  }
 
-
-
-
 };
 
 void escolha(){
