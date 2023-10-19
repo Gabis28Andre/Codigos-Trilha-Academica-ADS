@@ -97,9 +97,9 @@ int main(int argc, char const *argv[])
    }
 
 
-  escolhavel();
+  escolhavel(); //escolher velocidade nova
   
-  int v;
+  int v; //recebe valor de velocidade atual
   scanf("\t %d", &v);
 
   if (v != 0 && a==1){
