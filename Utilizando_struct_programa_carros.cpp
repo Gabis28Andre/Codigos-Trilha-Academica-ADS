@@ -74,8 +74,8 @@ int main(int argc, char const *argv[])
     Carro car1, car2, car3;
     //modelo, cor, ano, potencia, velmax, vel
     car1.insere ("Civic", "Prata", 2013, 500, 213, 0);
-    car2.insere ("Golf", "Branco", 2010, 300, 213, 40);
-    car3.insere ("Corolla", "Cinza", 2018, 280, 213, 40);
+    car2.insere ("Golf", "Branco", 2010, 300, 213, 0);
+    car3.insere ("Corolla", "Cinza", 2018, 280, 213, 0);
     
 
     escolha();
