@@ -24,7 +24,7 @@ struct Carro
   void mostra(){
    
 
-   cout << "\n Nome do modelo: " << modelo << "\n";
+   cout << "\nNome do modelo: " << modelo << "\n";
    cout << "Cor: " << cor << "\n";
    cout << "Ano: " << ano << "\n";
    cout << "Potencia: " << pot << "\n";
