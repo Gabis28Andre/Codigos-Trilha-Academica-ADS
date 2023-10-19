@@ -20,7 +20,7 @@ void imprimir(int b []){ // só utiliza o vetor como parametro não retorna nenh
 int i;
 for(i=0; i<3; i++){ //função que apresenta os indices
 
-    printf("\n Numeros [%d], %d", i, (2*b[i])); //função que dobra o valor que os indices recebem
+    printf("\n Vetor [%d], %d", i, (2*b[i])); //função que dobra o valor que os indices recebem
 
 }
  printf("\n\n"); //espaçamento só no final
