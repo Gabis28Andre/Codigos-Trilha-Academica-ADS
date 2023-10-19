@@ -44,26 +44,26 @@ int main(int argc, char const *argv[])
    scanf("\t %d", &a);
 
    if(a == 1){
-   cout << "Nome do modelo: " << car1.modelo << "\n";
+   cout << "\n Nome do modelo: " << car1.modelo << "\n";
    cout << "Cor: " << car1.cor << "\n";
    cout << "Ano: " << car1.ano << "\n";
    cout << "Potencia: " << car1.pot << "\n";
    }
 
     if(a == 2){
-   cout << "Nome do modelo: " << car2.modelo << "\n";
+   cout << "\n Nome do modelo: " << car2.modelo << "\n";
    cout << "Cor: " << car2.cor << "\n";
    cout << "Ano: " << car2.ano << "\n";
    cout << "Potencia: " << car2.pot << "\n";
    }
 
     if(a == 3){
-   cout << "Nome do modelo: " << car3.modelo << "\n";
+   cout << "\n Nome do modelo: " << car3.modelo << "\n";
    cout << "Cor: " << car3.cor << "\n";
    cout << "Ano: " << car3.ano << "\n";
    cout << "Potencia: " << car3.pot << "\n";
    }
 
-
+printf("\n\n");
     return 0;
 }
