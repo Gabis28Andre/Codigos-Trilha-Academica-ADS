@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
-        "funcao_recursiva_fibonacci": "cpp"
+        "funcao_recursiva_fibonacci": "cpp",
+        "iostream": "cpp"
     }
 }
