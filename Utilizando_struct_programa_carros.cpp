@@ -50,7 +50,7 @@ struct Carro
  }
 
  void mostravel(){
- cout << "Velocidade Atual: " << vel << "\n";
+ cout << "\n\t Velocidade Atual: " << vel << "\n";
  }
 
 };
