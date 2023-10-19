@@ -59,7 +59,7 @@ void escolha(){
 
    printf("\n Digite 1......Civic: \n");
    printf("\n Digite 2......Golf: \n");
-   printf("\n Digite 3......Corolla: ");
+   printf("\n Digite 3......Corolla: \t");
    
 
   
